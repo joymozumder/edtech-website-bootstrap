@@ -2,6 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:ital@1&family=Poppins:wght@500&display=swap');
 
 /* common styles */
-body{
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+.custom-item {
+    background-color: black;
+}
+
+.custom-item img {
+    min-height: 40vh;
+}
+
+/* media queries */
+/* Mobile Devices */
+@media screen and (max-width: 767px) {
+    .slider-heading {
+        font-size: 20px;
+    }
+
+    .slider-text {
+        font-size: 12px;
+    }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-heading {
+        font-size: 40px;
+    }
+
+    .slider-text {
+        font-size: 16px;
+    }
 }
