@@ -10,9 +10,7 @@ body {
     background-color: black;
 }
 
-.custom-item img {
-    min-height: 40vh;
-}
+
 
 /* media queries */
 /* Mobile Devices */
@@ -23,6 +21,10 @@ body {
 
     .slider-text {
         font-size: 12px;
+    }
+
+    .custom-item img {
+        height: 40vh;
     }
 }
 
